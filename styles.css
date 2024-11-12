@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1ede4; /* Warm tone background */
+}
+
+/* Header Styling with Fading Background */
+.header {
+    position: relative;
+    text-align: center;
+    color: rgb(243, 231, 231);
+    padding: 100px 20px;
+    background: url('https://curlytales.com/wp-content/uploads/2024/03/navroz-traditions.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 249, 249, 0.5); /* 50% opacity for fading effect */
+    z-index: 0;
+}
+
+.header h1,
+.header p {
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+/* Header Styling */
+.header {
+    text-align: center; 
+    color: rgb(15, 1, 1);
+    padding: 100px 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.5em;
+    color: black;
+}
+
+/* Intro Icons Section */
+.intro-section {
+    background-color: rgba(197, 104, 104, 0.8);
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-box {
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+}
+
+.icon-box img {
+    width: 80px;
+    height: 80px;
+}
+
+.icon-box p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Image & Text Blocks */
+.content {
+    padding: 40px;
+}
+
+.image-text-block {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.image-text-block.alt {
+    flex-direction: row-reverse;
+}
+
+.text-block {
+    width: 50%;
+    padding: 20px;
+}
+
+.image-block {
+    width: 50%;
+}
+
+.image-block img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #8b4513;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #c69c6d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
